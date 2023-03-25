@@ -1,0 +1,17 @@
+.main-container{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #75529c;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: relative;
+}
+
+.main-content-logo {
+    display: flex;
+    width: auto;
+    height: 50%;
+}

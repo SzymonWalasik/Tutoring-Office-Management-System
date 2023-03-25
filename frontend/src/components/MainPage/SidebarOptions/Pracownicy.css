@@ -1,0 +1,66 @@
+.workers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    width: 100%;
+    background: #241133;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}
+
+.workers-header {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.workers-box {
+    display: flex;
+    background-color: #75529c;
+    padding: 40px;
+    width: 60%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: right;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.workers-logo {
+    display:flex;
+    width: 100px;
+    height: 90px;
+    color: #ccc;
+}
+
+.workers-label {
+    display:flex;
+    width: auto;
+    font-size: 20px;
+    color: #ccc;
+    margin: 10px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    word-break: keep-all;
+    text-align: left;
+}
+
+.initial-avatar {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 100px;
+    align-items: center;
+    border-radius: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}

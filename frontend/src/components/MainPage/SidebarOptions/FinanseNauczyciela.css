@@ -1,0 +1,87 @@
+.teacher-finance-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background: #241133;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    padding: 20px 0;
+}
+
+.teacher-finance-header {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.teacher-finance-table {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: #75529c;
+    padding: 40px;
+    height: 90%;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: right;
+    margin-bottom: 30px;
+    overflow-y: auto;
+}
+
+.teacher-finance-table tr {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.teacher-finance-table tr td {
+    padding: 15px 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid #241133;
+    background-color: #ccc;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+
+.teacher-finance-table thead tr td:first-child,
+.teacher-finance-table tbody tr td:first-child {
+    width: 50%;
+}
+
+.teacher-finance-table thead tr td:nth-child(2),
+.teacher-finance-table tbody tr td:nth-child(2) {
+    width: 30%;
+}
+
+.teacher-finance-table thead tr td:nth-child(3),
+.teacher-finance-table tbody tr td:nth-child(3) {
+    width: 20%;
+}
+
+.teacher-finance-table thead,
+.teacher-finance-table tbody,
+.teacher-finance-table tfoot {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.teacher-finance-buttons {
+    width: auto;
+    background-color: #300c52;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}

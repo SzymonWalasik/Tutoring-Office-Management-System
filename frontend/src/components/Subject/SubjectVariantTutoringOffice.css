@@ -1,0 +1,81 @@
+.page {
+    height: 100vh;
+    flex-direction: column;
+}
+
+.subjects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background: #241133;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    padding: 2% 0;
+}
+
+.edit-subjects-form, .create-subject-form {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #75529c;
+    padding: 40px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+    overflow-y: auto;
+}
+
+.subject-list {
+    display: flex;
+    text-align: left;
+}
+
+.subjects-container select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    background-color: white;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.management-header {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.creation-header {
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.subjects-container button {
+    width: auto;
+    background-color: #300c52;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#deleteButton {
+    margin-left: 20px;
+}

@@ -1,0 +1,27 @@
+.top-navbar {
+    box-sizing: border-box;
+    width: 100vw;
+    position: relative;
+    height: 80px;
+    padding: 10px 20px;
+    background-color: #271b31;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(5, 5, 5);
+}
+.title {
+    margin: 0px;
+    overflow: visible;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #E0D3CC;
+}
+.app-logo {
+    display: flex;
+    width: auto;
+}
